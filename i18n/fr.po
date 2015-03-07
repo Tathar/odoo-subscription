@@ -1,0 +1,654 @@
+# French translation for openobject-addons
+# Copyright (c) 2014 Rosetta Contributors and Canonical Ltd 2014
+# This file is distributed under the same license as the openobject-addons package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2014.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: openobject-addons\n"
+"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2015-01-21 14:08+0000\n"
+"PO-Revision-Date: 2014-08-14 16:10+0000\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: French <fr@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2015-01-22 07:55+0000\n"
+"X-Generator: Launchpad (build 17306)\n"
+
+#. module: subscription
+#: field:report.subscription,num_invoiced:0
+msgid "# Invoiced"
+msgstr "Nb. Facturés"
+
+#. module: subscription
+#: field:report.subscription,num_paid:0
+msgid "# Paid"
+msgstr "Nb. payant"
+
+#. module: subscription
+#: field:report.subscription,num_waiting:0
+msgid "# Waiting"
+msgstr "Nb. en attente"
+
+#. module: subscription
+#: help:res.partner,associate_member:0
+msgid ""
+"A member with whom you want to associate your subscription.It will consider "
+"the subscription state of the associated member."
+msgstr ""
+"Un membre auquel vous voulez associer votre adhésion. Cela prendra en compte "
+"l'état de l'adhésion du membre associé."
+
+#. module: subscription
+#: field:subscription.subscription_line,account_invoice_line:0
+msgid "Account Invoice line"
+msgstr "Ligne de Facture"
+
+#. module: subscription
+#: view:product.template:subscription.subscription_products_form
+msgid "Add a description..."
+msgstr "Ajouter une description…"
+
+#. module: subscription
+#: view:res.partner:subscription.view_res_partner_member_filter
+msgid "All Members"
+msgstr "Tous les membres"
+
+#. module: subscription
+#: view:res.partner:subscription.view_res_partner_member_filter
+msgid "All non Members"
+msgstr "Tous les non-membres"
+
+#. module: subscription
+#: help:subscription.subscription_line,member_price:0
+msgid "Amount for the subscription"
+msgstr "Total pour l'adhésion"
+
+#. module: subscription
+#: field:report.subscription,associate_member_id:0
+#: view:res.partner:subscription.view_res_partner_member_filter
+#: field:res.partner,associate_member:0
+msgid "Associate Member"
+msgstr "Membre associé"
+
+#. module: subscription
+#: view:report.subscription:subscription.view_report_subscription_search
+msgid "Associated Partner"
+msgstr "Partenaire associé"
+
+#. module: subscription
+#: model:product.template,name:subscription.subscription_2_product_template
+msgid "Basic Subscription"
+msgstr "Adhésion de base"
+
+#. module: subscription
+#: view:res.partner:subscription.view_partner_form
+msgid "Buy Subscription"
+msgstr "Payer une cotisation"
+
+#. module: subscription
+#: view:subscription.invoice:subscription.view_subscription_invoice_view
+msgid "Cancel"
+msgstr "Annuler"
+
+#. module: subscription
+#: field:res.partner,subscription_cancel:0
+msgid "Cancel Subscription Date"
+msgstr "Date d'annulation de l'adhésion"
+
+#. module: subscription
+#: field:subscription.subscription_line,date_cancel:0
+msgid "Cancel date"
+msgstr "Date d'annulation"
+
+#. module: subscription
+#: selection:subscription.subscription_line,state:0
+#: selection:report.subscription,subscription_state:0
+#: selection:res.partner,subscription_state:0
+msgid "Cancelled Member"
+msgstr "Adhésion annulée"
+
+#. module: subscription
+#: view:product.template:subscription.subscription_product_search_form_view
+msgid "Category"
+msgstr "Catégorie"
+
+#. module: subscription
+#: help:product.template,subscription:0
+msgid "Check if the product is eligible for subscription."
+msgstr "Cochez si l'article est éligible pour l'adhésion"
+
+#. module: subscription
+#: field:subscription.subscription_line,company_id:0
+#: view:report.subscription:subscription.view_report_subscription_search
+#: field:report.subscription,company_id:0
+msgid "Company"
+msgstr "Société"
+
+#. module: subscription
+#: view:res.partner:subscription.view_partner_tree
+msgid "Contacts"
+msgstr "Contacts"
+
+#. module: subscription
+#: field:subscription.invoice,create_uid:0
+#: field:subscription.subscription_line,create_uid:0
+msgid "Created by"
+msgstr ""
+
+#. module: subscription
+#: field:subscription.invoice,create_date:0
+#: field:subscription.subscription_line,create_date:0
+msgid "Created on"
+msgstr ""
+
+#. module: subscription
+#: view:report.subscription:subscription.view_report_subscription_search
+#: field:report.subscription,subscription_state:0
+msgid "Current Subscription State"
+msgstr "État actuel de l'adhésion"
+
+#. module: subscription
+#: field:res.partner,subscription_state:0
+msgid "Current Subscription Status"
+msgstr "État actuel de l'adhésion"
+
+#. module: subscription
+#: view:res.partner:subscription.view_res_partner_member_filter
+msgid "Customer Partners"
+msgstr "Partenaires clients"
+
+#. module: subscription
+#: view:res.partner:subscription.view_res_partner_member_filter
+msgid "Customers"
+msgstr "Clients"
+
+#. module: subscription
+#: help:product.template,subscription_date_from:0
+#: help:res.partner,subscription_start:0
+msgid "Date from which subscription becomes active."
+msgstr "Date à partir de laquelle l'adhésion devient active."
+
+#. module: subscription
+#: help:subscription.subscription_line,date:0
+msgid "Date on which member has joined the subscription"
+msgstr "Date à laquelle l'adhésion du membre a été effective."
+
+#. module: subscription
+#: help:res.partner,subscription_cancel:0
+msgid "Date on which subscription has been cancelled"
+msgstr "Date à laquelle l'adhésion a été annulée"
+
+#. module: subscription
+#: help:product.template,subscription_date_to:0
+#: help:res.partner,subscription_stop:0
+msgid "Date until which subscription remains active."
+msgstr "Date jusqu'à laquelle l'adhésion reste active."
+
+#. module: subscription
+#: field:report.subscription,tot_earned:0
+msgid "Earned Amount"
+msgstr "Montant récolté"
+
+#. module: subscription
+#: field:report.subscription,date_to:0
+msgid "End Date"
+msgstr "Date de fin"
+
+#. module: subscription
+#: view:res.partner:subscription.view_res_partner_member_filter
+msgid "End Subscription Date"
+msgstr "Date de fin d'adhésion"
+
+#. module: subscription
+#: view:res.partner:subscription.view_res_partner_member_filter
+msgid "End Month"
+msgstr ""
+
+#. module: subscription
+#: help:report.subscription,date_to:0
+msgid "End subscription date"
+msgstr "Date de fin de l'adhésion"
+
+#. module: subscription
+#: view:res.partner:subscription.view_res_partner_member_filter
+msgid "Ending Month Of Subscription"
+msgstr ""
+
+#. module: subscription
+#: sql_constraint:product.template:0
+msgid "Error ! Ending Date cannot be set before Beginning Date."
+msgstr ""
+"Erreur ! La Date de Fin ne peut pas être définit avant la Date de Début."
+
+#. module: subscription
+#: constraint:res.partner:0
+msgid "Error ! You cannot create recursive associated members."
+msgstr ""
+"Erreur ! Vous ne pouvez pas créer des membres associés de manière récursive."
+
+#. module: subscription
+#: code:addons/subscription/subscription.py:402
+#: code:addons/subscription/subscription.py:405
+#, python-format
+msgid "Error!"
+msgstr "Erreur!"
+
+#. module: subscription
+#: constraint:subscription.subscription_line:0
+msgid "Error, this subscription product is out of date"
+msgstr "Erreur, cet article d'adhésion est obsolète"
+
+#. module: subscription
+#: view:report.subscription:subscription.view_report_subscription_search
+msgid "Forecast"
+msgstr "Prévisions"
+
+#. module: subscription
+#: selection:subscription.subscription_line,state:0
+#: selection:report.subscription,subscription_state:0
+#: field:res.partner,free_member:0
+#: selection:res.partner,subscription_state:0
+msgid "Free Member"
+msgstr "Membre Libre"
+
+#. module: subscription
+#: field:subscription.subscription_line,date_from:0
+msgid "From"
+msgstr "De"
+
+#. module: subscription
+#: view:product.template:subscription.subscription_product_search_form_view
+msgid "From Month"
+msgstr ""
+
+#. module: subscription
+#: model:product.template,name:subscription.subscription_0_product_template
+msgid "Gold Subscription"
+msgstr ""
+
+#. module: subscription
+#: view:report.subscription:subscription.view_report_subscription_search
+#: view:res.partner:subscription.view_res_partner_member_filter
+msgid "Group By"
+msgstr ""
+
+#. module: subscription
+#: view:product.template:subscription.subscription_product_search_form_view
+msgid "Group by..."
+msgstr "Regrouper par..."
+
+#. module: subscription
+#: field:subscription.invoice,id:0
+#: field:subscription.subscription_line,id:0
+#: field:report.subscription,id:0
+msgid "ID"
+msgstr ""
+
+#. module: subscription
+#: view:product.template:subscription.subscription_product_search_form_view
+msgid "Inactive"
+msgstr "Inactif"
+
+#. module: subscription
+#: model:ir.model,name:subscription.model_account_invoice
+#: field:subscription.subscription_line,account_invoice_id:0
+msgid "Invoice"
+msgstr "Facture"
+
+#. module: subscription
+#: model:ir.model,name:subscription.model_account_invoice_line
+msgid "Invoice Line"
+msgstr "Ligne de facuration"
+
+#. module: subscription
+#: model:ir.actions.act_window,name:subscription.action_subscription_invoice_view
+#: view:subscription.invoice:subscription.view_subscription_invoice_view
+msgid "Invoice Subscription"
+msgstr "Facture d'adhésion"
+
+#. module: subscription
+#: selection:subscription.subscription_line,state:0
+#: selection:report.subscription,subscription_state:0
+#: selection:res.partner,subscription_state:0
+msgid "Invoiced Member"
+msgstr "Membre Facturé"
+
+#. module: subscription
+#: view:res.partner:subscription.view_res_partner_member_filter
+msgid "Invoiced/Paid/Free"
+msgstr "Facturé/Payé/Gratuit"
+
+#. module: subscription
+#: help:res.partner,subscription_state:0
+msgid ""
+"It indicates the subscription state.\n"
+"-Non Member: A partner who has not applied for any subscription.\n"
+"-Cancelled Member: A member who has cancelled his subscription.\n"
+"-Old Member: A member whose subscription date has expired.\n"
+"-Waiting Member: A member who has applied for the subscription and whose "
+"invoice is going to be created.\n"
+"-Invoiced Member: A member whose invoice has been created.\n"
+"-Paying member: A member who has paid the subscription fee."
+msgstr ""
+
+#. module: subscription
+#: help:subscription.subscription_line,state:0
+msgid ""
+"It indicates the subscription status.\n"
+"                        -Non Member: A member who has not applied for any "
+"subscription.\n"
+"                        -Cancelled Member: A member who has cancelled his "
+"subscription.\n"
+"                        -Old Member: A member whose subscription date has "
+"expired.\n"
+"                        -Waiting Member: A member who has applied for the "
+"subscription and whose invoice is going to be created.\n"
+"                        -Invoiced Member: A member whose invoice has been "
+"created.\n"
+"                        -Paid Member: A member who has paid the subscription "
+"amount."
+msgstr ""
+"Cela indique l'état de l'adhésion.\n"
+"                      -Non Membre: Un partenaire qui n'a jamais adhéré.\n"
+"                      -Adhésion annulée: Un membre qui a annulé son "
+"adhésion.\n"
+"                      -Ancien Membre: Un membre dont la date d'adhésion a "
+"expirée.\n"
+"                      -Membre en attente: Un membre qui a demandé son "
+"adhésion et dont la facture va être créée.\n"
+"                      -Membre facturé: Un membre dont la facture a été "
+"créée.\n"
+"                      -Membre payé: Un membre qui a payé son adhésion."
+
+#. module: subscription
+#: field:subscription.subscription_line,date:0
+msgid "Join Date"
+msgstr "Date d'adhésion"
+
+#. module: subscription
+#: field:subscription.invoice,write_uid:0
+#: field:subscription.subscription_line,write_uid:0
+msgid "Last Updated by"
+msgstr ""
+
+#. module: subscription
+#: field:subscription.invoice,write_date:0
+#: field:subscription.subscription_line,write_date:0
+msgid "Last Updated on"
+msgstr ""
+
+#. module: subscription
+#: field:report.subscription,partner_id:0
+msgid "Member"
+msgstr "Cotisant"
+
+#. module: subscription
+#: field:subscription.invoice,member_price:0
+msgid "Member Price"
+msgstr "Prix Membre"
+
+#. module: subscription
+#: model:ir.model,name:subscription.model_subscription_subscription_line
+msgid "Member line"
+msgstr "Ligne de Membres"
+
+#. module: subscription
+#: model:ir.actions.act_window,name:subscription.action_subscription_members
+#: model:ir.ui.menu,name:subscription.menu_members
+#: model:ir.ui.menu,name:subscription.menu_subscription
+#: view:res.partner:subscription.subscription_members_tree
+msgid "Members"
+msgstr "Membres"
+
+#. module: subscription
+#: model:ir.actions.act_window,name:subscription.action_report_subscription_tree
+#: model:ir.ui.menu,name:subscription.menu_report_subscription
+msgid "Members Analysis"
+msgstr "Analyse des membres"
+
+#. module: subscription
+#: field:subscription.invoice,product_id:0
+#: field:subscription.subscription_line,subscription_id:0
+#: field:product.template,subscription:0
+#: view:report.subscription:subscription.view_report_subscription_graph1
+#: view:report.subscription:subscription.view_report_subscription_search
+#: view:res.partner:subscription.view_partner_form
+#: field:res.partner,member_lines:0
+msgid "Subscription"
+msgstr "Cotisation"
+
+#. module: subscription
+#: field:res.partner,subscription_amount:0
+msgid "Subscription Amount"
+msgstr "Montant de l'Adhésion"
+
+#. module: subscription
+#: model:ir.model,name:subscription.model_report_subscription
+msgid "Subscription Analysis"
+msgstr "Analyse des adhésions"
+
+#. module: subscription
+#: view:product.template:subscription.subscription_products_form
+msgid "Subscription Duration"
+msgstr "Durée d'Adhésion"
+
+#. module: subscription
+#: field:product.template,subscription_date_to:0
+#: field:res.partner,subscription_stop:0
+msgid "Subscription End Date"
+msgstr "Date de fin d'adhésion"
+
+#. module: subscription
+#: field:subscription.subscription_line,member_price:0
+#: view:product.template:subscription.subscription_products_form
+#: view:product.template:subscription.subscription_products_tree
+msgid "Subscription Fee"
+msgstr "Frais d'adhésion"
+
+#. module: subscription
+#: model:ir.model,name:subscription.model_subscription_invoice
+#: view:subscription.invoice:subscription.view_subscription_invoice_view
+msgid "Subscription Invoice"
+msgstr "Facture de l'adhésion"
+
+#. module: subscription
+#: view:res.partner:subscription.view_res_partner_member_filter
+msgid "Subscription Partners"
+msgstr "Adhésion"
+
+#. module: subscription
+#: view:product.template:subscription.subscription_product_search_form_view
+#: view:report.subscription:subscription.view_report_subscription_search
+#: field:report.subscription,subscription_id:0
+msgid "Subscription Product"
+msgstr "Article pour l'adhésion"
+
+#. module: subscription
+#: model:ir.actions.act_window,name:subscription.action_subscription_products
+#: model:ir.ui.menu,name:subscription.menu_subscription_products
+#: view:product.template:subscription.subscription_product_search_form_view
+msgid "Subscription Products"
+msgstr "Articles d'adhésion"
+
+#. module: subscription
+#: field:product.template,subscription_date_from:0
+#: field:res.partner,subscription_start:0
+msgid "Subscription Start Date"
+msgstr "Date de Début d'Adhésion"
+
+#. module: subscription
+#: view:res.partner:subscription.view_res_partner_member_filter
+msgid "Subscription State"
+msgstr "Etat de l'adhésion"
+
+#. module: subscription
+#: field:subscription.subscription_line,state:0
+msgid "Subscription Status"
+msgstr "État de l'adhésion"
+
+#. module: subscription
+#: view:product.template:subscription.subscription_products_form
+#: view:product.template:subscription.subscription_products_tree
+msgid "Subscription products"
+msgstr "Articles d'adhésion"
+
+#. module: subscription
+#: view:res.partner:subscription.view_partner_form
+msgid "Subscriptions"
+msgstr "Adhésions"
+
+#. module: subscription
+#: view:report.subscription:subscription.view_report_subscription_search
+msgid "Month"
+msgstr "Mois"
+
+#. module: subscription
+#: selection:subscription.subscription_line,state:0
+#: selection:report.subscription,subscription_state:0
+#: selection:res.partner,subscription_state:0
+msgid "Non Member"
+msgstr "Non membre"
+
+#. module: subscription
+#: view:res.partner:subscription.view_res_partner_member_filter
+msgid "None/Canceled/Old/Waiting"
+msgstr "Aucune/Annulée/Ancienne/En attente"
+
+#. module: subscription
+#: selection:subscription.subscription_line,state:0
+#: selection:report.subscription,subscription_state:0
+#: selection:res.partner,subscription_state:0
+msgid "Old Member"
+msgstr "Ancien Membre"
+
+#. module: subscription
+#: selection:subscription.subscription_line,state:0
+#: selection:report.subscription,subscription_state:0
+#: selection:res.partner,subscription_state:0
+msgid "Paid Member"
+msgstr "Membre payant"
+
+#. module: subscription
+#: model:ir.model,name:subscription.model_res_partner
+#: field:subscription.subscription_line,partner:0
+msgid "Partner"
+msgstr "Partenaire"
+
+#. module: subscription
+#: code:addons/subscription/subscription.py:406
+#, python-format
+msgid "Partner doesn't have an address to make the invoice."
+msgstr "Le partenaire n'a pas d'adresse pour établir la facture."
+
+#. module: subscription
+#: code:addons/subscription/subscription.py:403
+#, python-format
+msgid "Partner is a free Member."
+msgstr "Le partenaire est membre gratuitement."
+
+#. module: subscription
+#: field:report.subscription,tot_pending:0
+msgid "Pending Amount"
+msgstr "Montant en attente"
+
+#. module: subscription
+#: model:ir.model,name:subscription.model_product_template
+msgid "Product Template"
+msgstr "Modèle de produit"
+
+#. module: subscription
+#: field:report.subscription,quantity:0
+msgid "Quantity"
+msgstr ""
+
+#. module: subscription
+#: view:report.subscription:subscription.view_report_subscription_search
+msgid "Revenue Done"
+msgstr "Revenu final"
+
+#. module: subscription
+#: view:report.subscription:subscription.view_report_subscription_search
+#: field:report.subscription,user_id:0
+#: view:res.partner:subscription.view_res_partner_member_filter
+msgid "Salesperson"
+msgstr "Vendeur"
+
+#. module: subscription
+#: help:res.partner,free_member:0
+msgid "Select if you want to give free subscription."
+msgstr "Sélectionner si vous voulez donner une adhésion gratuite."
+
+#. module: subscription
+#: model:product.template,name:subscription.subscription_1_product_template
+msgid "Silver Subscription"
+msgstr "Adhésion Argent"
+
+#. module: subscription
+#: field:report.subscription,start_date:0
+msgid "Start Date"
+msgstr "Date de début"
+
+#. module: subscription
+#: view:res.partner:subscription.view_res_partner_member_filter
+msgid "Start Month"
+msgstr ""
+
+#. module: subscription
+#: view:res.partner:subscription.view_res_partner_member_filter
+msgid "Starting Month Of Subscription"
+msgstr ""
+
+#. module: subscription
+#: view:res.partner:subscription.view_res_partner_member_filter
+msgid "Supplier Partners"
+msgstr "Partenaires fournisseurs"
+
+#. module: subscription
+#: view:res.partner:subscription.view_res_partner_member_filter
+msgid "Suppliers"
+msgstr "Fournisseurs"
+
+#. module: subscription
+#: view:product.template:subscription.subscription_products_form
+msgid "Taxes"
+msgstr "Taxes"
+
+#. module: subscription
+#: help:res.partner,subscription_amount:0
+msgid "The price negotiated by the partner"
+msgstr "Prix négocié par le partenaire"
+
+#. module: subscription
+#: view:product.template:subscription.subscription_products_form
+msgid "This note will be displayed on quotations..."
+msgstr "Cette note sera affichée sur les devis..."
+
+#. module: subscription
+#: view:report.subscription:subscription.view_report_subscription_search
+msgid "This will display paid, old and total earned columns"
+msgstr "Ceci va afficher les colonnes payé, ancien, et totalement gagné"
+
+#. module: subscription
+#: view:report.subscription:subscription.view_report_subscription_search
+msgid "This will display waiting, invoiced and total pending columns"
+msgstr "Ceci va afficher les colonnes en attente, facturées, et totales"
+
+#. module: subscription
+#: field:subscription.subscription_line,date_to:0
+msgid "To"
+msgstr "À"
+
+#. module: subscription
+#: selection:subscription.subscription_line,state:0
+#: selection:report.subscription,subscription_state:0
+#: selection:res.partner,subscription_state:0
+msgid "Waiting Member"
+msgstr "Membre en attente"
+
+#. module: subscription
+#: view:subscription.invoice:subscription.view_subscription_invoice_view
+msgid "or"
+msgstr "ou"
