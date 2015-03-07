@@ -1,0 +1,84 @@
+<?xml version="1.0"?>
+<openerp>
+    <data>
+
+<!-- Demo Data for Subscriptions  -->
+    <record id="subscription_0" model="product.product">
+        <field name="subscription">True</field>
+        <field eval="time.strftime('%Y-01-01')" name="subscription_date_from"/>
+        <field eval="time.strftime('%Y-12-31')" name="subscription_date_to"/>
+        <field name="name">Gold Subscription</field>
+        <field name="list_price">180</field>
+        <field name="categ_id" ref="product.product_category_1"/>
+        <field name="type">service</field>
+        <field name="image" type="base64" file="subscription/static/img/subscription_0-image.jpg"/>
+    </record>
+    <record id="subscription_1" model="product.product">
+        <field name="subscription">True</field>
+        <field eval="time.strftime('%Y-01-01')" name="subscription_date_from"/>
+        <field eval="time.strftime('%Y-12-31')" name="subscription_date_to"/>
+        <field name="name">Silver Subscription</field>
+        <field name="categ_id" ref="product.product_category_1"/>
+        <field name="list_price">80</field>
+        <field name="type">service</field>
+        <field name="image" type="base64" file="subscription/static/img/subscription_1-image.jpg"/>
+    </record>
+    <record id="subscription_2" model="product.product">
+        <field name="subscription">True</field>
+        <field eval="time.strftime('%Y-01-01')" name="subscription_date_from"/>
+        <field eval="time.strftime('%Y-12-31')" name="subscription_date_to"/>
+        <field name="name">Basic Subscription</field>
+        <field name="categ_id" ref="product.product_category_1"/>
+        <field name="list_price">40</field>
+        <field name="type">service</field>
+        <field name="image" type="base64" file="subscription/static/img/subscription_2-image.jpg"/>
+    </record>
+
+    <!-- Join Subscriptions  -->
+    <function model="res.partner" name="create_subscription_invoice" eval="(ref('base.res_partner_2'), ref('subscription_0'), {'amount':180})"/>
+    <function model="res.partner" name="create_subscription_invoice" eval="(ref('base.res_partner_10'), ref('subscription_0'), {'amount':180})"/>
+    <function model="res.partner" name="create_subscription_invoice" eval="(ref('base.res_partner_12'), ref('subscription_0'), {'amount':180})"/>
+    <function model="res.partner" name="create_subscription_invoice" eval="(ref('base.res_partner_13'), ref('subscription_0'), {'amount':180})"/>
+
+    <function model="res.partner" name="create_subscription_invoice" eval="(ref('base.res_partner_18'), ref('subscription_1'), {'amount':180})"/>
+    <function model="res.partner" name="create_subscription_invoice" eval="(ref('base.res_partner_21'), ref('subscription_1'), {'amount':180})"/>
+    <function model="res.partner" name="create_subscription_invoice" eval="(ref('base.res_partner_22'), ref('subscription_1'), {'amount':180})"/>
+    <function model="res.partner" name="create_subscription_invoice" eval="(ref('base.res_partner_23'), ref('subscription_1'), {'amount':180})"/>
+
+    <function model="res.partner" name="create_subscription_invoice" eval="(ref('base.res_partner_9'), ref('subscription_2'), {'amount':180})"/>
+    <function model="res.partner" name="create_subscription_invoice" eval="(ref('base.res_partner_11'), ref('subscription_2'), {'amount':180})"/>
+    <function model="res.partner" name="create_subscription_invoice" eval="(ref('base.res_partner_5'), ref('subscription_2'), {'amount':180})"/>
+    <function model="res.partner" name="create_subscription_invoice" eval="(ref('base.res_partner_3'), ref('subscription_2'), {'amount':180})"/>
+
+    <!-- Demo data for free member -->
+    <record id="base.res_partner_18" model="res.partner">
+        <field name="free_member">True</field>
+    </record>
+    <record id="base.res_partner_7" model="res.partner">
+        <field name="free_member">True</field>
+    </record>
+    <record id="base.res_partner_9" model="res.partner">
+        <field name="free_member">True</field>
+    </record>
+    <record id="base.res_partner_26" model="res.partner">
+        <field name="free_member">True</field>
+    </record>
+
+    <!-- Demo data for associate member -->
+    <record id="base.res_partner_12" model="res.partner">
+        <field name="associate_member" ref="base.res_partner_2"/>
+    </record>
+    <record id="base.res_partner_8" model="res.partner">
+        <field name="associate_member" ref="base.res_partner_2"/>
+    </record>
+    <record id="base.res_partner_3" model="res.partner">
+        <field name="associate_member" ref="base.res_partner_2"/>
+    </record>
+    <record id="base.res_partner_4" model="res.partner">
+        <field name="associate_member" ref="base.res_partner_2"/>
+    </record>
+    <record id="base.res_partner_17" model="res.partner">
+        <field name="associate_member" ref="base.res_partner_2"/>
+    </record>
+    </data>
+</openerp>

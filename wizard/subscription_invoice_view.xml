@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+    <data>
+
+        <record id="view_subscription_invoice_view" model="ir.ui.view">
+            <field name="name">subscription.invoice.view.form</field>
+            <field name="model">subscription.invoice</field>
+            <field name="arch" type="xml">
+                <form string="subscription Invoice">
+                    <group>
+                        <field name="product_id" domain="[('subscription','=',True)]" widget="selection" on_change="onchange_product(product_id)"/>
+                        <field name="member_price"/>
+                    </group>
+                    <footer>
+                        <button string="Invoice subscription" name="subscription_invoice" type="object" class="oe_highlight"  />
+                        or
+                        <button string="Cancel" class="oe_link" special="cancel" />
+                    </footer>
+                </form>
+            </field>
+        </record>
+
+        <record id="action_subscription_invoice_view" model="ir.actions.act_window">
+            <field name="name">Join subscription</field>
+            <field name="res_model">subscription.invoice</field>
+            <field name="view_type">form</field>
+            <field name="view_mode">tree,form</field>
+            <field name="view_id" ref="view_subscription_invoice_view"/>
+            <field name="target">new</field>
+        </record>
+
+        <act_window name="Invoice subscription"
+            res_model="subscription.invoice"
+            src_model="res.partner"
+            multi="True"
+            key2="client_action_multi"
+            view_mode="form"
+            id="action_subscription_invoice_view"/>
+
+    </data>
+</openerp>

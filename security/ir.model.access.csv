@@ -1,0 +1,4 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_subscription_subscription_line_partner_manager,subscription.subscription_line partner_manager,model_subscription_subscription_line,base.group_partner_manager,1,1,1,1
+access_subscription_subscription_line,subscription.subscription_line,model_subscription_subscription_line,,1,0,0,0
+access_report_subscription,report.subscription,model_report_subscription,base.group_partner_manager,1,0,0,0
